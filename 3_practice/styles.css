@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.header {
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background: #E5E000;
+    color: white;
+    padding-left: 40px;
+    text-align: start;
+}
+.image{
+    width: 1000px;
+    height: 600px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/584b/46cf/21b086ce89154e7a7a6292751302504d?Expires=1658102400&Signature=Zf99DX1tiuGrhJxDDRUcSKVOdeCE1l9PLMnGb9d0qUEPYXNsVLIda3KIdFA8X4xk41UzHUkTokxmJNQzFhLGUrLpST7JZrJ2rHWkMMTDYGSCTluhRNRFHxsF3V9kJ8byUpXTDCSx2mLYgoQ-0-nMjKyKPVS2QzrWNbSz8sPY8s9Vr-9rN6khhtOdLRNTG0lmXgTjz5rsEBLPM41gGS8Dqy1TPvrkWbVf69GSuW-9yiHg0BXwj6Kaaf1qzNuPn8ksmrMPIbBsuNaNF1Z5E5ZHqpcFChTj06Pfv9oV3Zydgu3Y4AI8Gu4J1k-WvA3sLFsUSr4g-7oD7Ve9UZQDgYiaHA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size: cover;
+    background-position: center;
+}
+.links {
+    width: 1000px;
+    height: 80px;
+    align-items: center;
+    background: #E5E000;
+    color: white;
+    padding-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+.text{
+    color: black;              
+    padding: 10px;
+    width: 1000px auto;
+    margin: 10px;
+}
+.footer {
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E5E000;
+    color: white;
+    padding-left: 40px;
+}
+.footer-item {
+    padding-right: 40px;
+}
