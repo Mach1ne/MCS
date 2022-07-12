@@ -6,7 +6,6 @@
 
 .header {
     background: #FE1A19;
-    width: 1440px;
     height: 40px;
     color: white;
     font-size: 10px;
@@ -17,48 +16,20 @@
     display: flex;
     justify-content: space-between;
     background: #E5E5E5;
-    width: 1440px;
-    height: 1024px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .container-one {
     box-sizing: border-box;
-    position: absolute;
     width: 400px;
-    height: 800px;
-    left: 70px;
-    top: 112px;
     border: 5px solid #E5E000;
     border-radius: 30px;
     font-size: 20px;
     padding: 33px;
-}
-.container-two {
-    box-sizing: border-box;
-    position: absolute;
-    width: 400px;
-    height: 800px;
-    left: 520px;
-    top: 112px;
-    border: 5px solid #E5E000;
-    border-radius: 30px;
-    font-size: 20px;
-    padding: 33px;
-}
-.container-three {
-    box-sizing: border-box;
-    position: absolute;
-    width: 400px;
-    height: 800px;
-    left: 970px;
-    top: 112px;
-    border: 5px solid #E5E000;
-    border-radius: 30px;
-    font-size: 20px;
-    padding: 33px;
+    margin: 0 25px;
 }
 .footer {
     background: #FE1A19;
-    width: 1440px;
     height: 40px;
     color: white;
     font-size: 10px;
